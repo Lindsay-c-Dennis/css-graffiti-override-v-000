@@ -1,1 +1,20 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+#wall:first-child #tag-2 {
+  display: none;
+}
+
+#wall #tag-3 .wicked .slick {
+  display: none;
+}
+
+#wall .parent #tag-4 {
+  display: none;
+}
+
+div #wall .parent:nth-child( <> [ of <selector># ]? ) #tag-5.slick {
+  display: none;
+}
