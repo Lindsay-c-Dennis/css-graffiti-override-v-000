@@ -19,6 +19,6 @@
   display: none;
 }
 
-div#wall {
+div#wall div.parent {
   display:none;
 }
